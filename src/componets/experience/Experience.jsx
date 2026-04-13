@@ -1,7 +1,11 @@
 import React from 'react'
 import { PiOfficeChairFill } from "react-icons/pi";
+import { GiBriefcase } from "react-icons/gi";
+   
 
 export default function Experience() {
+
+
   return (
  <div className="relative overflow-hidden min-h-[900px] sm:min-h-[650px] flex flex-col items-center">
                 
@@ -30,7 +34,43 @@ export default function Experience() {
                 <div className="md:h-[750px] h-[880px] md:w-[1600px] w-[900px] bg-gradient-to-r absolute  bg-cyan-400 rounded-full -z-10 transform rotate-6 -top-60 ">
                     
     </div>
+
+    <div>
+      <div>
+        <section>
+                <div>
+                  <div className="relative flex flex-col mt-2 items-center justify-center py-20 px-40 bg-slate-950 rounded-xl border border-slate-800 shadow-2xl overflow-hidden">
+
+                 <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-2xl blur-2xl opacity-30 animate-pulse">
+                        
+                        <div className="relative z-10 flex flex-col items-center bg-slate-900 p-4 rounded-3xl border border-slate-700">
+                          
+                           <div className='bg-slate-400 p-5 rounded-3xl '>
+                                <GiBriefcase className="text-cyan-400 w-12 h-12  animate-bounce" />
+                                <p className='text-cyan-400'>
+
+                                  work Experience Coming Soon...
+
+                                </p>
+                           </div>
+                            
+                      </div>
+                   </div>
+                  </div>
+                
+                </div>
+        </section>
+      </div>
+      
     </div>
 
+    
+    </div>
+    
+
   )
-}
+};
+  
+
+
+

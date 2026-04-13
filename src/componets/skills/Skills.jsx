@@ -1,7 +1,13 @@
 import React from 'react'
 import { GiSkills } from "react-icons/gi";
 import { FaReact, FaNodeJs, FaHtml5 } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiTailwindcss, SiJavascript } from "react-icons/si";
+import { SiMongodb, SiExpress, SiTailwindcss, SiGithub, SiJavascript,SiFirebase ,SiSupabase,SiRedis ,SiFastapi,SiNextdotjs ,SiVercel,SiAndroidstudio ,SiKubernetes} from "react-icons/si";
+import { SiTypescript ,SiPython ,SiPytorch ,SiDjango  ,SiKotlin ,SiFlutter} from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { SiPostman } from "react-icons/si";
+import { TiVendorMicrosoft } from "react-icons/ti";
+import { GrDocker } from "react-icons/gr";
+import { FaAws } from "react-icons/fa";
 
 export default function Skills() {
 
@@ -21,9 +27,41 @@ export default function Skills() {
       skills: [
         { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
         { name: "Express.js", icon: <SiExpress className="text-gray-400" /> },
+        { name: "Next.js", icon: <SiNextdotjs className="text-gray-900" /> },
         { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
+        { name: "Firebase", icon: <SiFirebase className="text-orange-600" /> },
+        { name: "Supabase", icon: <SiSupabase className="text-green-600" /> },
+        { name: "Redis", icon: <SiRedis className="text-purple-600" /> },
+        { name: "FastApi", icon: <SiFastapi className="text-teal-500" /> },
       ],
     },
+    {
+    title:"Programming Languages and Frameworks",
+    skills:[
+      { name: "React NAtive", icon: <FaReact className="text-blue-400" /> },
+      { name: "Typescript", icon: <SiTypescript className="text-blue-400" /> },
+      { name: "Python", icon: <SiPython className="text-blue-600" /> },
+      { name: "Pytorch", icon: <SiPytorch className="text-orange-400" /> },
+      { name: "Django", icon: <SiDjango className="text-emerald-900" /> },
+      { name: "Java", icon: <FaJava className="text-red-400" /> },
+      { name: "Kotlin", icon: <SiKotlin className="text-purple-600" /> },
+      { name: "Flutter", icon: <SiFlutter className="text-sky-500" /> },
+
+    ],
+  },
+  {
+    title:"Tools",
+    skills:[
+      { name: "Postman", icon: <SiPostman className="text-orange-500" /> },
+      { name: "Docker", icon: <GrDocker className="text-sky-400" /> },
+      { name: "Kubernetes", icon: <SiKubernetes className="text-blue-600" /> },
+      { name: "Microsoft Office", icon: <TiVendorMicrosoft className="text-orange-600" /> },
+      { name: "AWS", icon: < FaAws  className="text-amber-400" /> },
+      { name: "Vercel", icon: < SiVercel  className="text-white" /> },
+      { name: "Git & Github", icon: <  SiGithub  className="text-slate-400" /> },
+
+    ],
+  }
   ];
   return (
     <div className="relative overflow-hidden min-h-[900px] sm:min-h-[650px] flex flex-col items-center">
@@ -62,7 +100,7 @@ export default function Skills() {
     <div>
 
       <div>
-        <section className="max-w-3xl mx-auto py-10 px-6 bg-white dark:bg-slate-950 rounded-xl border shadow-sm">
+        <section className="max-w-3xl mx-auto py-20 px-6 mt-20 bg-white dark:bg-slate-950 rounded-xl border shadow-sm">
       <h2 className="text-2xl font-bold mb-6 text-slate-800 dark:text-slate-100">Technical Skills</h2>
       
       {skillCategories.map((category, index) => (
