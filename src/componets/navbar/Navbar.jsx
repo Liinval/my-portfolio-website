@@ -1,12 +1,13 @@
 import React from 'react'
+import {Link} from "react-router-dom"
 
 export default function Navbar(){ 
     const NavbarLinks =[
-        {id:1 , name:'Home' ,link:'#home'},
-        {id:2 , name:'Skills' ,link:'#skills'},
-        {id:3 , name:'Experince' ,link:'#exprience'},
-        {id:4 , name:'Projects' ,link:'#projects'},
-        {id:5 , name:'Certifications' ,link:'#certfications'},
+        {id:1 , name:'Home' ,link:'/'},
+        {id:2 , name:'Skills' ,link:'/skills'},
+        {id:3 , name:'Experience' ,link:'/exprience'},
+        {id:4 , name:'Projects' ,link:'/projects'},
+        {id:5 , name:'Certifications' ,link:'/certfications'},
     
     ]
   return (
