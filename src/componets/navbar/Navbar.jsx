@@ -5,11 +5,12 @@ export default function Navbar(){
     const NavbarLinks =[
         {id:1 , name:'Home' ,link:'/'},
         {id:2 , name:'Skills' ,link:'/skills'},
-        {id:3 , name:'Experience' ,link:'/exprience'},
+        {id:3 , name:'Experience' ,link:'/experience'},
         {id:4 , name:'Projects' ,link:'/projects'},
-        {id:5 , name:'Certifications' ,link:'/certfications'},
+        {id:5 , name:'Certifications' ,link:'/certifications'},
     
     ]
+    
   return (
     <header className='absolute top-0 flex justify-center items-center body-font z-10 top-0 w-full z-50'>
         <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center '>

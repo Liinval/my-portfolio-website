@@ -6,6 +6,7 @@ import Skills from "./componets/skills/Skills"
 import Projects from "./componets/projects/Projects"
 import Navbar from "./componets/navbar/Navbar"
 import Certifications from "./componets/certifications/Certifications"
+import Footer from "./componets/footer/Footer"
 function App() {
   return (
     
@@ -19,7 +20,7 @@ function App() {
     <Route path="/certifications"element={<Certifications/>}/>
     <Route path="#" element={<NotFound/>}/>
    </Routes>
-   
+   <Footer/>
    </BrowserRouter>
 
 
