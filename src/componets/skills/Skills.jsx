@@ -123,7 +123,7 @@ export default function Skills() {
             </div>
           </div>
           
-          {/* Horizontal Line - only show if not the last item */}
+    
           {index !== skillCategories.length - 1 && (
             <hr className="border-slate-200 dark:border-slate-800" />
           )}

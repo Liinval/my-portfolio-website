@@ -44,7 +44,7 @@ export default function Navbar(){
             </button>
             {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
-          {/* Modal Box */}
+          
           <div className="bg-white p-6 rounded-2xl shadow-xl w-80 text-center relative">
             <h2 className="text-xl font-bold mb-4">Get in Touch</h2>
             
