@@ -14,10 +14,10 @@ function App() {
    <Navbar/>
    <Routes>
     <Route path="/" element={<Hero />}/>
-    <Route path="/skills" element={<Skills/>}/>
-    <Route path="/experience" element={<Experience />}/>
-    <Route path="/projects" element={<Projects/>}/>
-    <Route path="/certifications"element={<Certifications/>}/>
+    <Route path="/Skills" element={<Skills/>}/>
+    <Route path="/Experience" element={<Experience />}/>
+    <Route path="/Projects" element={<Projects/>}/>
+    <Route path="/Certifications"element={<Certifications/>}/>
     <Route path="#" element={<NotFound/>}/>
    </Routes>
    <Footer/>

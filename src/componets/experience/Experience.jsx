@@ -23,14 +23,11 @@ export default function Experience() {
                         <p className='max-w-3xl mt-4 text-white'>
                           Currently seeking a challenging industrial attachment to apply my academic foundation in software engineering to real-world business challenges. I am ready to bring my MERN stack expertise and Day One work ethic to a high-performing technical team.
                         </p>
-    
-                       
-        
+            
                        </div>
     
-     
-    
                 </section>
+                
                 <div className="md:h-[750px] h-[880px] md:w-[1600px] w-[900px] bg-gradient-to-r absolute  bg-cyan-400 rounded-full -z-10 transform rotate-6 -top-60 ">
                     
     </div>
@@ -47,7 +44,7 @@ export default function Experience() {
                           
                            <div className='bg-slate-400 p-5 rounded-3xl '>
                                 <GiBriefcase className="text-cyan-400 w-12 h-12  animate-bounce" />
-                                <p className='text-cyan-400'>
+                                <p className='text-cyan-400 z-10'>
 
                                   work Experience Coming Soon...
 
@@ -61,13 +58,11 @@ export default function Experience() {
                 </div>
         </section>
       </div>
-      
+
     </div>
 
-    
     </div>
     
-
   )
 };
   

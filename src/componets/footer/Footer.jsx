@@ -27,22 +27,22 @@ export default function Footer() {
                         </li>
 
                         <li>
-                            <a href=" /skills" className='hover:underline text-gray-900 text-white text-lg'>Skills</a>
+                            <a href=" /Skills" className='hover:underline text-gray-900 text-white text-lg'>Skills</a>
                             
                         </li>
 
                         <li>
-                            <a href="/experience" className='hover:underline text-gray-900 text-white text-lg'>Experience</a>
+                            <a href="/Experience" className='hover:underline text-gray-900 text-white text-lg'>Experience</a>
                             
                         </li>
 
                         <li>
-                            <a href="/projects" className='hover:underline text-gray-900 text-white text-lg'>Projects</a>
+                            <a href="/Projects" className='hover:underline text-gray-900 text-white text-lg'>Projects</a>
                            
                         </li>
 
                         <li>
-                             <a href="/certifications" className='hover:underline text-gray-900 text-white text-lg'>Certifications</a>
+                             <a href="/Certifications" className='hover:underline text-gray-900 text-white text-lg'>Certifications</a>
                         </li>
                         
                      </ul>
